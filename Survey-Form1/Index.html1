@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <title> Favorite Fruit </title>
+</head>
+<body>
+<!--#1-->
+<h1 id="title"> Favorite Fruit </h1>
+<!--#2-->
+<p id="description"> Do you like more traditional fruit or more exotic fruit? </p>
+
+<!--#3-->
+<form id="survey-form">
+  <!--#4-->
+  <input id="name" required type="text" placeholder="placeholder">
+  <label id="name-label"> name </label><br>
+
+  <!-- #5 -->
+  <input id="email" required type="email"  placeholder="placeholder">
+  <label id="email-label"> email </label><br>
+
+  <!-- #7 & #9 -->
+  <input id="number" type="number" min="0" max="200" placeholder="num">
+  <label id="number-label"> Age </label><br>
+
+  <select id="dropdown">
+     <option value="Male">Male</option>
+    <option value="Female">Female</option>
+    <option value="Other">Other</option>
+  </select><br><br>
+  <!-- 13 -->
+  <input type="radio" name="radio1" id="apple" value="Apple">
+  <label for="apple">Apple</label><br>
+
+  <input type="radio" name="radio1" id="pear" value="Pear">
+  <label for="pear">Pear</label><br>
+
+  <input type="radio" name="radio1" id="watermelon" value="Watermelon">
+  <label for="watermelon">Watermelon</label><br>
+
+  <input type="radio" name="radio1" id="coconut" value="Coconut">
+  <label for="coconut">Coconut</label><br>
+
+  <input type="radio" name="radio1" id="raspberries1" value="Raspberries">
+  <label for="raspberries1">Raspberries</label><br>
+  
+<!-- Checkboxes 14 -->
+
+<p> Which of these fruits do you eat every week? <p>
+
+
+<input type="checkbox" id="none" name="checkboxes" value="None">
+  <label for="none"> None</label><br>
+  
+  
+<input type="checkbox" id="strawberries" name="checkboxes" value="Strawberries">
+  <label for="strawberries"> Strawberries</label><br>
+
+  
+<input type="checkbox" id="bananas" name="checkboxes" value="Bananas">
+  <label for="bananas"> Bananas</label><br>
+
+   
+<input type="checkbox" id="raspberries2" name="checkboxes" value="Raspberries">
+  <label for="raspberries2"> Raspberries</label><br>
+   
+<input type="checkbox" id="grapes" name="checkboxes" value="Grapes">
+  <label for="grapes"> Grapes</label><br>
+
+<p> Write what your favorite fruit is!<br>
+  <textarea id="fav_fruit" name="Fav_Fruit" rows="4" cols="26"></textarea>
+
+ <br><br><input type="submit" value="Submit" id="submit">
+
+</form>
+</body>
