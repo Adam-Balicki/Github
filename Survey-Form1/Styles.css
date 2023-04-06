@@ -1,1 +1,39 @@
+body {
+  background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v560-wan-07-summerfruit_1.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=989554ff9fb8d722001419460049f3e8);
+  font-family: sans-serif;
+  padding: 30px;
+}
 
+h1 {
+  text-align: left;
+  font: bold 20px Arial, sans-serif;
+}
+
+h3 {
+  text-align: center;
+  font: bold 30px Arial, sans-serif;
+}
+
+p {
+  text-align: left;
+  font: bold 20px Arial, sans-serif;
+}
+
+
+
+h2 {
+  text-align: left;
+  font: bold 20px Arial, sans-serif;
+}
+
+.established {
+  font: 30px Arial;
+   text-align: center;
+    padding: 4px;
+}
+hr {
+  height: 2px;
+  background-color: Green;
+  border-color:  Green;
+}
+<style>  textarea { resize: none; } </style>
