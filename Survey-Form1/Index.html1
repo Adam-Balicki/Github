@@ -5,31 +5,41 @@
   <title> Favorite Fruit </title>
 </head>
 <body>
+        
+<h3>Favorite Fruit Survey</h3>
+       <p class="established">Est. 2023</p>
+        <hr>
 <!--#1-->
 <h1 id="title"> Favorite Fruit </h1>
 <!--#2-->
-<p id="description"> Do you like more traditional fruit or more exotic fruit? </p>
+<p id="description"> <b> Do you like more traditional fruit or more exotic fruit?</b> </p>
 
 <!--#3-->
 <form id="survey-form">
   <!--#4-->
-  <input id="name" required type="text" placeholder="placeholder">
-  <label id="name-label"> name </label><br>
+  <input id="name" required type="text" placeholder="John Doe">
+  <label id="name-label"> Name </label><br>
 
   <!-- #5 -->
-  <input id="email" required type="email"  placeholder="placeholder">
-  <label id="email-label"> email </label><br>
+  <input id="email" required type="email"  placeholder="Johndoe@gmail.com">
+  <label id="email-label"> Email </label><br>
 
   <!-- #7 & #9 -->
-  <input id="number" type="number" min="0" max="200" placeholder="num">
+  <input id="number" type="number" min="0" max="200" placeholder="Age">
   <label id="number-label"> Age </label><br>
 
   <select id="dropdown">
      <option value="Male">Male</option>
     <option value="Female">Female</option>
-    <option value="Other">Other</option>
+    <option value="Other">Prefer not say</option>
+    
   </select><br><br>
+
+  <img src="https://blog.liebherr.com/appliances/us/wp-content/uploads/sites/3/2016/04/panthermedia_B24576143_1748x1165.jpg" alt="Watermelon" style="float:right;width:170px;height:170px;">
   <!-- 13 -->
+
+ <h1> Which of these fruit do you like the most? </h1>
+ 
   <input type="radio" name="radio1" id="apple" value="Apple">
   <label for="apple">Apple</label><br>
 
@@ -47,12 +57,12 @@
   
 <!-- Checkboxes 14 -->
 
-<p> Which of these fruits do you eat every week? <p>
+<h2> Which of these fruits do you eat every week? </h2>
 
 
 <input type="checkbox" id="none" name="checkboxes" value="None">
   <label for="none"> None</label><br>
-  
+  <img src="https://www.watermelon.org/wp-content/uploads/2020/07/Frog-Carving-27.jpg" alt="Watermelon" style="float:right;width:200px;height:200px;">
   
 <input type="checkbox" id="strawberries" name="checkboxes" value="Strawberries">
   <label for="strawberries"> Strawberries</label><br>
@@ -68,10 +78,14 @@
 <input type="checkbox" id="grapes" name="checkboxes" value="Grapes">
   <label for="grapes"> Grapes</label><br>
 
-<p> Write what your favorite fruit is!<br>
+<p> Write what your favorite fruit is!<p>
   <textarea id="fav_fruit" name="Fav_Fruit" rows="4" cols="26"></textarea>
+ 
 
  <br><br><input type="submit" value="Submit" id="submit">
 
 </form>
+<img src= "https://i.imgur.com/lHMefbf.jpg" alt="Normal Apple" style="width:300px;height:300px;">
+
+
 </body>
