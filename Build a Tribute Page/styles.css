@@ -1,0 +1,45 @@
+
+body {
+  background-color: #dbf1ff;
+}
+
+figcaption {
+  font-size:23px;
+}
+
+#img-div {
+  max-width: 50%;
+  background-color: #ebf7ff
+}
+
+#tribute-info {
+    font-size:23px;
+
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#img_young {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#timeline-div {
+  font-size: 25px;
+  display: block;
+}
+
+#timeline {
+  line-height: 35px;
+}
+
+#young-img-div {
+  max-width: 50%;
+  background-color: #ebf7ff
+}
